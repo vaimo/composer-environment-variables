@@ -1,0 +1,36 @@
+{
+    "name": "vaimo/composer-environment-variables",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "description": "Set environment variables in composer runtime (even the ones that composer itself uses)",
+    "authors": [
+        {
+            "name": "Allan Paiste",
+            "email": "allan.paiste@vaimo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "support": {
+        "source": "https://github.com/vaimo/composer-environment-variables",
+        "docs": "https://github.com/vaimo/composer-environment-variables",
+        "issues": "https://github.com/vaimo/composer-environment-variables/issues"
+    },
+    "keywords": [
+        "environment variables",
+        "env config",
+        "env variables",
+        "env defaults"
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "class": "Vaimo\\ComposerEnvironmentVariables\\Plugin",
+        "changelog-file": "changelog.json"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vaimo\\ComposerEnvironmentVariables\\": "src"
+        }
+    }
+}

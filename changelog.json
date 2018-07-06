@@ -1,0 +1,7 @@
+{
+    "0.1.0": {
+        "feature": [
+            "apply environment variables before composer update/install command triggers"
+        ]
+    }
+}
