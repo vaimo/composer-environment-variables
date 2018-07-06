@@ -1,9 +1,14 @@
 {
+    "0.1.2": {
+        "maintenance": [
+            "plugin event observer function renamed"
+        ]
+    },
     "0.1.1": {
         "fix": [
             "added missing composer API dependency that made it impossible to install the plugin"
         ]
-    }
+    },
     "0.1.0": {
         "feature": [
             "apply environment variables before composer update/install command triggers"

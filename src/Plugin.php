@@ -23,12 +23,12 @@ class Plugin implements \Composer\Plugin\PluginInterface,
     public static function getSubscribedEvents()
     {
         return array(
-            \Composer\Script\ScriptEvents::PRE_UPDATE_CMD => 'extractPatchesFromLock',
-            \Composer\Script\ScriptEvents::PRE_INSTALL_CMD => 'extractPatchesFromLock'
+            \Composer\Script\ScriptEvents::PRE_UPDATE_CMD => 'registerEnvironmentVariables',
+            \Composer\Script\ScriptEvents::PRE_INSTALL_CMD => 'registerEnvironmentVariables'
         );
     }
 
-    public function extractPatchesFromLock(\Composer\Script\Event $event)
+    public function registerEnvironmentVariables(\Composer\Script\Event $event)
     {
         if (!$this->bootstrap) {
             return;
