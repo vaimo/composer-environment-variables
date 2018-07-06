@@ -8,7 +8,7 @@ namespace Vaimo\ComposerEnvironmentVariables;
 use Vaimo\ComposerEnvironmentVariables\Config as PluginConfig;
 
 class Plugin implements \Composer\Plugin\PluginInterface,
-    \Composer\EventDispatcher\EventSubscriberInterface, \Composer\Plugin\Capable
+    \Composer\EventDispatcher\EventSubscriberInterface
 {
     /**
      * @var \Vaimo\ComposerEnvironmentVariables\Bootstrap
