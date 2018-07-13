@@ -4,7 +4,7 @@ Pre-configures any environment variable to be used through-out the composer comm
 include environment variable values that are meant for composer itself or could be used to set env
 flag for any other plugin that happens to execute.
 
-## Configuration: hard-points
+## Configuration: overview
 
 Environment variables can be defined as key value pairs in the project's composer.json
 
