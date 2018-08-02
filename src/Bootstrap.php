@@ -19,7 +19,6 @@ class Bootstrap
 
     /**
      * @param \Composer\Composer $composer
-     * @param array $config
      */
     public function __construct(
         \Composer\Composer $composer
